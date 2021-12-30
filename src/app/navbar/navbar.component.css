@@ -1,0 +1,25 @@
+.navbar-nav > li {
+  float: left;
+  position: relative;
+}
+.navbar-light .navbar-nav .active::after {
+  border-bottom: 5px solid red;
+  bottom: -10px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.navbar-light .navbar-nav :hover::after {
+  border-bottom: 5px solid red;
+  bottom: -10px;
+  content: " ";
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+
+.nav-item a{
+  font-size: 1.2rem;
+}
